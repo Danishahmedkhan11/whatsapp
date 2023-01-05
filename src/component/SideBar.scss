@@ -1,0 +1,51 @@
+@import '../App.scss';
+
+$bg-color: rgb(38, 38, 38);
+
+.side {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    display: wrap;
+    border-right: 1px solid gray;
+
+    .header {
+        display: flex;
+        display: wrap;
+        align-items: center;
+        background-color: rgb(32, 44, 51);
+        justify-content: space-between;
+        padding:0px;
+
+    }
+
+    .input-search {
+        align-items: center;
+        font-size: 12px;
+        margin: 10px;
+        margin-left: 10px;
+
+        border-radius: 50px;
+        background-color: rgb(32, 44, 51);
+
+        input {
+            background-color: rgb(32, 44, 51);
+            outline: none;
+            border: none;
+            color: white;
+
+
+        }
+
+    }
+}
+
+.icons {
+    font-size: 20px !important;
+    color: rgb(177, 177, 177);
+}
+
+.body-sidebar {
+    overflow-y: scroll;
+}
+

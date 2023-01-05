@@ -1,0 +1,17 @@
+$display-flex: flex;
+$display-wrap: wrap;
+$background-color:rgb(17,27,33);
+
+.app {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color:$background-color;
+  
+}
+.app-body{
+    display:$display-flex;
+    height: 95vh;
+    width: 98vw;
+    background-color: $background-color;
+}

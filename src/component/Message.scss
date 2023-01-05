@@ -1,0 +1,103 @@
+@import "../App.scss";
+
+.message {
+    display: flex;
+    flex-direction: column;
+    flex: 7;
+}
+
+.body-message {
+    flex: 1;
+    background-image: url('bg-photo.jpg');
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow-y: scroll;
+}
+
+$left-message: left;
+$right-message: right;
+
+.messages {
+    background-color:  rgb(32, 44, 51);;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    width: fit-content;
+    font-size: smaller;
+
+    .timespan {
+        
+        color: gray;
+        font-size: 9px;
+        margin-left: 20px;
+        justify-content: right;
+        justify-content: space-between;
+        margin-bottom: -10px;
+    }
+}
+
+.right {
+    margin-left: auto;
+    background-color:rgb(0,92,75);
+   
+}
+
+.header {
+    display: flex;
+    display: wrap;
+    align-items: center;
+    background-color: rgb(32, 44, 51);
+    justify-content: space-between;
+    padding: 7px;
+
+
+    .avatar-info {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+
+        .message-info {
+            font-size: 14px;
+            margin-left: 10px;
+            p {
+                font-size: 12px;
+                color: gray;
+            }
+        }
+    }
+
+    .icon {
+        color: rgb(177, 177, 177);
+    }
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: rgb(32, 44, 51);
+}
+
+.icons-footer{
+    margin-left:10px ;
+    display: flex;
+}
+
+.input-footer {
+    align-items: center;
+    font-size: 12px;
+    margin: 10px;
+    margin-left: 10px;
+    
+    input {
+        background-color: rgb(49, 60, 66);
+        outline: none;
+        border: none;
+        color: white;
+        width: 49rem;
+        padding:10px ;
+        border-radius: 10px;
+    }
+
+
+}
